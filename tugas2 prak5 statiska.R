@@ -1,0 +1,5 @@
+tommy=read.delim("clipboard")
+View(tommy)
+str(tommy)
+mean(tommy$Gaji)
+t.test(tommy$Gaji, mu=14500)
